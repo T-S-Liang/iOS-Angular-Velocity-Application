@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/libxlsxwriter/xlsxwriter.framework

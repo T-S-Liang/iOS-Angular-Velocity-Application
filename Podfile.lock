@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - libxlsxwriter (0.8.9)
+
+DEPENDENCIES:
+  - Charts (~> 3.0)
+  - libxlsxwriter (~> 0.8.3)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - libxlsxwriter
+
+SPEC CHECKSUMS:
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  libxlsxwriter: e3bb38110b774ed2ef47d850689cef0a114e9cc6
+
+PODFILE CHECKSUM: a940739cfb86239d32493646d3b21bd1ef7404cd
+
+COCOAPODS: 1.10.1

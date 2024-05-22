@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96B844534E53911C0A708FA /* Pods_AngularVelocitySensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0105EA3176B29C6A4F0C8D59 /* Pods_AngularVelocitySensor.framework */; };
+		FF6C58432637F3830073554E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C583A2637EDD30073554E /* Charts.framework */; };
+		FF6C584B2637F3880073554E /* xlsxwriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF45B8A02637EAD00035A6DF /* xlsxwriter.framework */; };
+		FF6C58642637F7980073554E /* Pods_AngularVelocitySensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD073EE2614F35C00B29160 /* Pods_AngularVelocitySensor.framework */; };
+		FF6C58652637F7980073554E /* Pods_AngularVelocitySensor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFD073EE2614F35C00B29160 /* Pods_AngularVelocitySensor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFDDA805260DF0B40033903A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDA804260DF0B40033903A /* AppDelegate.swift */; };
+		FFDDA807260DF0B40033903A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDA806260DF0B40033903A /* SceneDelegate.swift */; };
+		FFDDA809260DF0B40033903A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDA808260DF0B40033903A /* ViewController.swift */; };
+		FFDDA80C260DF0B40033903A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDA80A260DF0B40033903A /* Main.storyboard */; };
+		FFDDA80E260DF0B50033903A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDDA80D260DF0B50033903A /* Assets.xcassets */; };
+		FFDDA811260DF0B50033903A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDA80F260DF0B50033903A /* LaunchScreen.storyboard */; };
+		FFDDA81C260DF0B50033903A /* AngularVelocitySensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDA81B260DF0B50033903A /* AngularVelocitySensorTests.swift */; };
+		FFDDA827260DF0B50033903A /* AngularVelocitySensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDDA826260DF0B50033903A /* AngularVelocitySensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF45B89F2637EAD00035A6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C55667E21E9469A6A885C0E31EA4B7D;
+			remoteInfo = libxlsxwriter;
+		};
+		FF6C58342637EDD30073554E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
+			remoteInfo = Charts;
+		};
+		FF6C58392637EDD30073554E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1C1B977ED8804E8AEEC884E7359EE58;
+			remoteInfo = Charts;
+		};
+		FF6C583B2637EDD80073554E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A534299236C2C3C0C940497BB968D49;
+			remoteInfo = libxlsxwriter;
+		};
+		FFD073ED2614F35C00B29160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D02B36E0CEC41AB342BAF67BD8A37A1;
+			remoteInfo = "Pods-AngularVelocitySensor";
+		};
+		FFDDA818260DF0B50033903A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDDA7F9260DF0B40033903A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDDA800260DF0B40033903A;
+			remoteInfo = AngularVelocitySensor;
+		};
+		FFDDA823260DF0B50033903A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDDA7F9260DF0B40033903A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDDA800260DF0B40033903A;
+			remoteInfo = AngularVelocitySensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF6C58662637F7980073554E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF6C58652637F7980073554E /* Pods_AngularVelocitySensor.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0105EA3176B29C6A4F0C8D59 /* Pods_AngularVelocitySensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngularVelocitySensor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1FD0A491ECD40AE6C3DCD1 /* Pods-AngularVelocitySensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngularVelocitySensor.release.xcconfig"; path = "Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor.release.xcconfig"; sourceTree = "<group>"; };
+		BC34A79B656F8948F160DC40 /* Pods-AngularVelocitySensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngularVelocitySensor.debug.xcconfig"; path = "Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8D34872614EDA400FBDE5B /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = Charts/Source; sourceTree = "<group>"; };
+		FF8D348C2614EDAA00FBDE5B /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Charts; path = Charts/Source/Charts; sourceTree = "<group>"; };
+		FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		FFDDA801260DF0B40033903A /* AngularVelocitySensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngularVelocitySensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDDA804260DF0B40033903A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDDA806260DF0B40033903A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFDDA808260DF0B40033903A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFDDA80B260DF0B40033903A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDDA80D260DF0B50033903A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDDA810260DF0B50033903A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDDA812260DF0B50033903A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDDA817260DF0B50033903A /* AngularVelocitySensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularVelocitySensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDDA81B260DF0B50033903A /* AngularVelocitySensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularVelocitySensorTests.swift; sourceTree = "<group>"; };
+		FFDDA81D260DF0B50033903A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDDA822260DF0B50033903A /* AngularVelocitySensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngularVelocitySensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDDA826260DF0B50033903A /* AngularVelocitySensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularVelocitySensorUITests.swift; sourceTree = "<group>"; };
+		FFDDA828260DF0B50033903A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDDA7FE260DF0B40033903A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6C58642637F7980073554E /* Pods_AngularVelocitySensor.framework in Frameworks */,
+				FF6C584B2637F3880073554E /* xlsxwriter.framework in Frameworks */,
+				FF6C58432637F3830073554E /* Charts.framework in Frameworks */,
+				A96B844534E53911C0A708FA /* Pods_AngularVelocitySensor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA814260DF0B50033903A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA81F260DF0B50033903A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6592C5845D7A3FBFBD3CC91E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC34A79B656F8948F160DC40 /* Pods-AngularVelocitySensor.debug.xcconfig */,
+				4E1FD0A491ECD40AE6C3DCD1 /* Pods-AngularVelocitySensor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF4851C42614DDA6001DD6B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D34872614EDA400FBDE5B /* Source */,
+				FF8D348C2614EDAA00FBDE5B /* Charts */,
+				0105EA3176B29C6A4F0C8D59 /* Pods_AngularVelocitySensor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8D349B2614EDEC00FBDE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6C583A2637EDD30073554E /* Charts.framework */,
+				FF45B8A02637EAD00035A6DF /* xlsxwriter.framework */,
+				FFD073EE2614F35C00B29160 /* Pods_AngularVelocitySensor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDDA7F8260DF0B40033903A = {
+			isa = PBXGroup;
+			children = (
+				FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */,
+				FFDDA803260DF0B40033903A /* AngularVelocitySensor */,
+				FFDDA81A260DF0B50033903A /* AngularVelocitySensorTests */,
+				FFDDA825260DF0B50033903A /* AngularVelocitySensorUITests */,
+				FFDDA802260DF0B40033903A /* Products */,
+				FF4851C42614DDA6001DD6B4 /* Frameworks */,
+				6592C5845D7A3FBFBD3CC91E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDDA802260DF0B40033903A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDA801260DF0B40033903A /* AngularVelocitySensor.app */,
+				FFDDA817260DF0B50033903A /* AngularVelocitySensorTests.xctest */,
+				FFDDA822260DF0B50033903A /* AngularVelocitySensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDDA803260DF0B40033903A /* AngularVelocitySensor */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDA804260DF0B40033903A /* AppDelegate.swift */,
+				FFDDA806260DF0B40033903A /* SceneDelegate.swift */,
+				FFDDA808260DF0B40033903A /* ViewController.swift */,
+				FFDDA80A260DF0B40033903A /* Main.storyboard */,
+				FFDDA80D260DF0B50033903A /* Assets.xcassets */,
+				FFDDA80F260DF0B50033903A /* LaunchScreen.storyboard */,
+				FFDDA812260DF0B50033903A /* Info.plist */,
+			);
+			path = AngularVelocitySensor;
+			sourceTree = "<group>";
+		};
+		FFDDA81A260DF0B50033903A /* AngularVelocitySensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDA81B260DF0B50033903A /* AngularVelocitySensorTests.swift */,
+				FFDDA81D260DF0B50033903A /* Info.plist */,
+			);
+			path = AngularVelocitySensorTests;
+			sourceTree = "<group>";
+		};
+		FFDDA825260DF0B50033903A /* AngularVelocitySensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDA826260DF0B50033903A /* AngularVelocitySensorUITests.swift */,
+				FFDDA828260DF0B50033903A /* Info.plist */,
+			);
+			path = AngularVelocitySensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDDA800260DF0B40033903A /* AngularVelocitySensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDDA82B260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensor" */;
+			buildPhases = (
+				C97D032F963F0F6E1E4E7230 /* [CP] Check Pods Manifest.lock */,
+				FFDDA7FD260DF0B40033903A /* Sources */,
+				FFDDA7FE260DF0B40033903A /* Frameworks */,
+				FFDDA7FF260DF0B40033903A /* Resources */,
+				964313FFDC449020C5F1BE1F /* [CP] Embed Pods Frameworks */,
+				FF6C58662637F7980073554E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6C583C2637EDD80073554E /* PBXTargetDependency */,
+				FF6C58352637EDD30073554E /* PBXTargetDependency */,
+			);
+			name = AngularVelocitySensor;
+			productName = AngularVelocitySensor;
+			productReference = FFDDA801260DF0B40033903A /* AngularVelocitySensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDDA816260DF0B50033903A /* AngularVelocitySensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDDA82E260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensorTests" */;
+			buildPhases = (
+				FFDDA813260DF0B50033903A /* Sources */,
+				FFDDA814260DF0B50033903A /* Frameworks */,
+				FFDDA815260DF0B50033903A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDDA819260DF0B50033903A /* PBXTargetDependency */,
+			);
+			name = AngularVelocitySensorTests;
+			productName = AngularVelocitySensorTests;
+			productReference = FFDDA817260DF0B50033903A /* AngularVelocitySensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFDDA821260DF0B50033903A /* AngularVelocitySensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDDA831260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensorUITests" */;
+			buildPhases = (
+				FFDDA81E260DF0B50033903A /* Sources */,
+				FFDDA81F260DF0B50033903A /* Frameworks */,
+				FFDDA820260DF0B50033903A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDDA824260DF0B50033903A /* PBXTargetDependency */,
+			);
+			name = AngularVelocitySensorUITests;
+			productName = AngularVelocitySensorUITests;
+			productReference = FFDDA822260DF0B50033903A /* AngularVelocitySensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDDA7F9260DF0B40033903A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FFDDA800260DF0B40033903A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FFDDA816260DF0B50033903A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FFDDA800260DF0B40033903A;
+					};
+					FFDDA821260DF0B50033903A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FFDDA800260DF0B40033903A;
+					};
+				};
+			};
+			buildConfigurationList = FFDDA7FC260DF0B40033903A /* Build configuration list for PBXProject "AngularVelocitySensor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDDA7F8260DF0B40033903A;
+			productRefGroup = FFDDA802260DF0B40033903A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF8D349B2614EDEC00FBDE5B /* Products */;
+					ProjectRef = FF8D349A2614EDEC00FBDE5B /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FFDDA800260DF0B40033903A /* AngularVelocitySensor */,
+				FFDDA816260DF0B50033903A /* AngularVelocitySensorTests */,
+				FFDDA821260DF0B50033903A /* AngularVelocitySensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF45B8A02637EAD00035A6DF /* xlsxwriter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = xlsxwriter.framework;
+			remoteRef = FF45B89F2637EAD00035A6DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF6C583A2637EDD30073554E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = FF6C58392637EDD30073554E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFD073EE2614F35C00B29160 /* Pods_AngularVelocitySensor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_AngularVelocitySensor.framework;
+			remoteRef = FFD073ED2614F35C00B29160 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDDA7FF260DF0B40033903A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDDA811260DF0B50033903A /* LaunchScreen.storyboard in Resources */,
+				FFDDA80E260DF0B50033903A /* Assets.xcassets in Resources */,
+				FFDDA80C260DF0B40033903A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA815260DF0B50033903A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA820260DF0B50033903A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		964313FFDC449020C5F1BE1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AngularVelocitySensor/Pods-AngularVelocitySensor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97D032F963F0F6E1E4E7230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AngularVelocitySensor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDDA7FD260DF0B40033903A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDDA809260DF0B40033903A /* ViewController.swift in Sources */,
+				FFDDA805260DF0B40033903A /* AppDelegate.swift in Sources */,
+				FFDDA807260DF0B40033903A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA813260DF0B50033903A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDDA81C260DF0B50033903A /* AngularVelocitySensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDDA81E260DF0B50033903A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDDA827260DF0B50033903A /* AngularVelocitySensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6C58352637EDD30073554E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = FF6C58342637EDD30073554E /* PBXContainerItemProxy */;
+		};
+		FF6C583C2637EDD80073554E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libxlsxwriter;
+			targetProxy = FF6C583B2637EDD80073554E /* PBXContainerItemProxy */;
+		};
+		FFDDA819260DF0B50033903A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDDA800260DF0B40033903A /* AngularVelocitySensor */;
+			targetProxy = FFDDA818260DF0B50033903A /* PBXContainerItemProxy */;
+		};
+		FFDDA824260DF0B50033903A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDDA800260DF0B40033903A /* AngularVelocitySensor */;
+			targetProxy = FFDDA823260DF0B50033903A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFDDA80A260DF0B40033903A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDDA80B260DF0B40033903A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDDA80F260DF0B50033903A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDDA810260DF0B50033903A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDDA829260DF0B50033903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDDA82A260DF0B50033903A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDDA82C260DF0B50033903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC34A79B656F8948F160DC40 /* Pods-AngularVelocitySensor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AngularVelocitySensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AngularVelocity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphoneos14.4]" = /Users/teemosmacbook/Desktop/AngularVelocitySensor/Pods/Header.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDDA82D260DF0B50033903A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1FD0A491ECD40AE6C3DCD1 /* Pods-AngularVelocitySensor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AngularVelocitySensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AngularVelocity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = /Users/teemosmacbook/Desktop/AngularVelocitySensor/Pods/Header.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFDDA82F260DF0B50033903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AngularVelocitySensorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.AngularVelocitySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularVelocitySensor.app/AngularVelocitySensor";
+			};
+			name = Debug;
+		};
+		FFDDA830260DF0B50033903A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AngularVelocitySensorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.AngularVelocitySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngularVelocitySensor.app/AngularVelocitySensor";
+			};
+			name = Release;
+		};
+		FFDDA832260DF0B50033903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngularVelocitySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.AngularVelocitySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngularVelocitySensor;
+			};
+			name = Debug;
+		};
+		FFDDA833260DF0B50033903A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngularVelocitySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.AngularVelocitySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngularVelocitySensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDDA7FC260DF0B40033903A /* Build configuration list for PBXProject "AngularVelocitySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDDA829260DF0B50033903A /* Debug */,
+				FFDDA82A260DF0B50033903A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDDA82B260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDDA82C260DF0B50033903A /* Debug */,
+				FFDDA82D260DF0B50033903A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDDA82E260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDDA82F260DF0B50033903A /* Debug */,
+				FFDDA830260DF0B50033903A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDDA831260DF0B50033903A /* Build configuration list for PBXNativeTarget "AngularVelocitySensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDDA832260DF0B50033903A /* Debug */,
+				FFDDA833260DF0B50033903A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDDA7F9260DF0B40033903A /* Project object */;
+}
